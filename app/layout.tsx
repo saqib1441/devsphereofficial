@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   title: "Dev Sphere - An IT Software Company",
   description:
     "At Dev Sphere, we provide top-notch IT services, including web development, app development, digital marketing, SEO, WordPress, UI/UX design, and graphic design. Our expert team is dedicated to delivering innovative and customized solutions that help businesses thrive in the digital world. Partner with us for cutting-edge technology and exceptional results!",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
