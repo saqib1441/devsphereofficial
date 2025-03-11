@@ -903,7 +903,7 @@ export const TeamData: TeamInterface[] = [
   },
   {
     name: "Saqib Ali",
-    position: "App Developer",
+    position: "CEO & Project Manager",
     imgSrc: SaqibAli,
     socialLinks: [
       {
