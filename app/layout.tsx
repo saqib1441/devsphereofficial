@@ -26,22 +26,6 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
-  openGraph: {
-    title: "Dev Sphere - An IT Software Company",
-    description:
-      "We provide expert IT services, including web development, SEO, digital marketing, and UI/UX design.",
-    url: "https://yourwebsite.com",
-    siteName: "Dev Sphere",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Dev Sphere Banner",
-      },
-    ],
-    type: "website",
-  },
 };
 
 export default function RootLayout({
