@@ -86,6 +86,7 @@ import AmeerHamza from "@/assets/team/ameer-hamza.jpg";
 import AyubRehman from "@/assets/team/ayub-rehman.png";
 import KomalShaikh from "@/assets/team/komal-shaikh.png";
 import MuhammadTahir from "@/assets/team/muhammad-tahir.png";
+import MuhammadZeeshan from "@/assets/team/muhammad-zeeshan.png";
 
 // Interfaces
 type Navlinks = {
@@ -335,23 +336,23 @@ export const ServicesData: readonly Service[] = [
     portfolio: [
       {
         imgSrc: GraphicsImg1,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: GraphicsImg2,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: GraphicsImg3,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: GraphicsImg4,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: GraphicsImg5,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
     ],
     thumbnail: Graphics,
@@ -410,31 +411,31 @@ export const ServicesData: readonly Service[] = [
     portfolio: [
       {
         imgSrc: UI1,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: UI2,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: UI3,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: UI4,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: UI5,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: UI6,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: UI7,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
     ],
     portfolioDesc:
@@ -501,19 +502,19 @@ export const ServicesData: readonly Service[] = [
       },
       {
         imgSrc: Web2,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: Web3,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: Web4,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: Web5,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
     ],
     portfolioDesc:
@@ -576,31 +577,31 @@ export const ServicesData: readonly Service[] = [
     portfolio: [
       {
         imgSrc: UI1,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: UI2,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: UI3,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: UI4,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: UI5,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: UI6,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: UI7,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
     ],
     portfolioDesc:
@@ -663,19 +664,19 @@ export const ServicesData: readonly Service[] = [
     portfolio: [
       {
         imgSrc: Marketing1,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: Marketing2,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: Marketing3,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: Marketing4,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
     ],
     portfolioDesc:
@@ -735,31 +736,31 @@ export const ServicesData: readonly Service[] = [
     portfolio: [
       {
         imgSrc: VideoEditing,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: "/video-editing/video-editing-1.mp4",
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: "/video-editing/video-editing-2.mp4",
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: "/video-editing/video-editing-3.mp4",
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: "/video-editing/video-editing-4.mp4",
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: "/video-editing/video-editing-5.mp4",
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: "/video-editing/video-editing-6.mp4",
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
     ],
     portfolioDesc:
@@ -828,27 +829,27 @@ export const ServicesData: readonly Service[] = [
     portfolio: [
       {
         imgSrc: WordpressImg1,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: WordpressImg2,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: WordpressImg3,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: WordpressImg4,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: WordpressImg5,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
       {
         imgSrc: WordpressImg6,
-        link: "#",
+        link: "https://www.devsphereofficial.online/",
       },
     ],
     portfolioDesc:
@@ -993,6 +994,25 @@ export const TeamData: TeamInterface[] = [
       {
         icon: <FaEnvelope />,
         url: "mailto:ysmarketingsagency@gmail.com",
+      },
+    ],
+  },
+  {
+    name: "Muhammad Zeeshan",
+    position: "App Developer",
+    imgSrc: MuhammadZeeshan,
+    socialLinks: [
+      {
+        icon: <FaFacebookF />,
+        url: "https://www.facebook.com/share/151WQBaWvP/",
+      },
+      {
+        icon: <RiLinkedinFill />,
+        url: "https://www.linkedin.com/in/muhammadzeshanmalik366/",
+      },
+      {
+        icon: <FaEnvelope />,
+        url: "mailto:muhammadzeshan4440366@gmail.com",
       },
     ],
   },

@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://devsphereofficial.online
-
-# Sitemaps
-Sitemap: https://devsphereofficial.online/sitemap.xml
