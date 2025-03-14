@@ -9,7 +9,7 @@ module.exports = {
 
   // Manually adding specific pages
   additionalPaths: async (config) => [
-    { loc: "/_not-found", lastmod: new Date().toISOString() },
+    { loc: "/", lastmod: new Date().toISOString() },
     { loc: "/about", lastmod: new Date().toISOString() },
     { loc: "/services", lastmod: new Date().toISOString() },
     { loc: "/services/[id]", lastmod: new Date().toISOString() },

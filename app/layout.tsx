@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Head from "next/head";
+import Script from "next/script";
 import { Poppins, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import ThemeProvider from "@/components/ThemeProvider";
@@ -32,16 +32,33 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <Head>
+      <head>
+        {/* Google Analytics */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-TRCRWYNJ1P"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-TRCRWYNJ1P');
+            `,
+          }}
+        />
+
         {/* Primary Meta Tags */}
-        <title>Dev Sphere - An IT Software Company</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Dev Sphere" />
         <link rel="canonical" href="https://www.devsphereofficial.online/" />
 
-        {/* Open Graph Meta Tags (For Facebook, LinkedIn, etc.) */}
+        {/* Open Graph Meta Tags */}
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
@@ -57,7 +74,7 @@ export default function RootLayout({
         />
         <meta property="og:image" content="/og.png" />
 
-        {/* Twitter Card Meta Tags */}
+        {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Dev Sphere - IT Solutions" />
         <meta
@@ -66,7 +83,7 @@ export default function RootLayout({
         />
         <meta name="twitter:image" content="/og.png" />
 
-        {/* Favicon Links */}
+        {/* Favicon */}
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -93,7 +110,7 @@ export default function RootLayout({
           content="7cT9PWonrQ2_sew-UQkEqur8FYO4HK8gUpLy3z9ejCo"
         />
 
-        {/* Structured Data for SEO */}
+        {/* Structured Data */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -110,7 +127,7 @@ export default function RootLayout({
             },
           })}
         </script>
-      </Head>
+      </head>
 
       <body className={`${nunito.variable} ${poppins.className} antialiased`}>
         <ThemeProvider>
